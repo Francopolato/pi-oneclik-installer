@@ -1,0 +1,4 @@
+# cmd.exe misparses LF-only batch files; keep CRLF IN the blob itself (-text = no normalization)
+*.cmd -text
+*.ps1 -text
+*.md text eol=lf
